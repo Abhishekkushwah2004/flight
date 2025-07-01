@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    margin: 0 !important;
+}
+
+h3 {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-weight: 700 !important;
+    font-size: 60px !important;
+    margin: 0 !important;
+}
+
+.h338 {
+    font-size: 38px !important;
+}
+.h332 {
+    font-size: 32px !important;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    margin: 0 !important;
+}
+.h4Medium {
+    font-weight: 500 !important;
+}
+.h422 {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    margin: 0 !important;
+}
+.h4Medium {
+    font-weight: 500 !important;
+}
+
+h5 {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    margin: 0 !important;
+}
+.h5Regular {
+    font-weight: 400 !important;
+}
+
+.h5Medium {
+    font-weight: 500 !important;
+}
+
+h6 {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    margin: 0 !important;
+}
+p {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+.pMedium{
+    font-weight: 500 !important;
+}
+img{
+    width: 100%;
+}
+
+/*Section Heading css*/
+.top .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.top .text a {
+    text-decoration: none;
+    color: #1262AE;
+}
+
+/* navBar Css*/
+
+.header {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.header .logo {
+    max-width: 174px;
+}
+
+.header .left-side {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.header .menus .menu {
+    margin-right: 36px;
+}
+
+.header .menus {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.header .menus .menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.header .menus .menu ul li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.header .menus .menu ul li a:hover {
+    text-decoration: none;
+    color: #1262AF;
+}
+
+.header .menus .profile ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 36px;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+.header .menus .profile ul .profile {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header .menus .profile ul .notification {
+    width: 24px;
+    height: 24px;
+}
+
+/* Search-section css*/
+
+.search-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 670px;
+    background-image: url(../../../../public/img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search-section .search-container {
+    padding: 0 40px;
+}
+
+.search-section .search-container .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-section .search-container .search-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 43px;
+}
+
+.search-section .search-container .search-box .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-section .search-container .search-box .top .search-title {
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+.search-section .search-container .search-box .top .radio-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-section .search-container .search-box .bottom .input-fields {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-section .search-container .search-box .bottom .MuiFormControl-root.MuiTextField-root.css-1xp5r68-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+}
+
+.search-section .search-container .search-box .bottom .btn {
+    width: 100%;
+    padding: 0;
+}
+
+.search-section .search-container .search-box .bottom .btn button {
+    background-color: #F99A0E;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 8px;
+    width: 100%;
+}
+
+
+/*recent-searches css*/
+
+
+.recent-searches-depart {
+    border: 1px solid #EAEAEA;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.recent-searches-depart .upper-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recent-searches-depart .boldText {
+    font-weight: 700 !important;
+    color: #1262AE;
+}
+
+.recent-searches-depart .bottom-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.recent-searches {
+    padding: 70px 0;
+}
+
+.recent-searches .heading {
+    margin-bottom: 20px;
+}
+
+.recent-searches .searches {
+    display: flex;
+    gap: 15px;
+}
+
+.recent-searches .Prepare-your-trip {
+    margin-top: 36px;
+}
+
+.recent-searches .trip-collection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PrepareTrip {
+    margin-top: 20px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*popular-destinations-section css*/
+
+.popular-destinations .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.popular-destinations .top .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.popular-destinations .top .right-side a {
+    text-decoration: none;
+    color: #1262AE;
+}
+
+.next-trip {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.next-trip .right-price-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.next-trip .text {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.next-trip .img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.next-trip .img {
+    width: 100%;
+}
+.next-trip .img:hover img {
+    transform: scale(1.2);
+    
+}
+
+/*recommended-holidays section css*/
+
+.recommended-holidays{
+    padding: 80px 0;
+}
+.recommended-trip .trip-card .trip-image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+.recommended-trip .trip-card{
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+.recommended-trip .trip-card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   
+}
+.recommended-trip .trip-card:hover img{
+    transform: scale(1.2);
+}
+.recommended-trip .trip-card .trip-image img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease-in-out;
+}
+.recommended-trip .trip-card .trip-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #EAEAEA;
+    padding: 20px 16px;
+}
+.recommended-trip .trip-card .trip-details .text{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 0;
+    align-items: start;
+}
+
+/* Popular Stay Section css*/
+
+.stayCard{
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px 12px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.stayCard:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.stayCard:hover .stay-image img{
+    transform: scale(1.2);
+    
+
+}
+.stayCard .stay-image{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.stayCard .stay-image img{
+    transition: transform 0.5s ease-in-out;
+}
+.stayCard .stay-details{
+    padding: 23px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.stayCard .stay-details .right-side .icon{
+    width: 25px;
+    height: 25px;
+}
+.stayCard .rating{
+    display: flex;
+    align-items: center;
+}
+.stayCard .rating .icon {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    margin-right: 4px;
+}
+.stayCard .rating .reviewsCount{
+    margin-left: 10px !important;
+}
+.stayCard .button{
+    padding-top: 23px;
+    transition: transform 0.5s ease-in-out;
+}
+.stayCard .button button:hover{
+    background-color: #1262AF;
+    color: #ffffff;
+}
+.stayCard .button button{
+    background-color: #ffffff;
+    color: #1262AF;
+    border: 1px solid #CCDCEC;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    font-family: "Roboto", sans-serif ;
+    font-weight: 500 ;
+    font-size: 16px ;
+   transition: background-color 0.3s ease, color 0.3s ease, transform 0.5s ease-in-out;
+}
+.PopularStays{
+    padding: 0 0 80px 0;
+}
+
+/*Subscribe Section css*/
+
+.subscribe{
+    background-image: url(../public//img/SubscribeSection.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+.subscribe .subscribe-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 0;
+}
+.subscribe .subscribe-content .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.subscribe .subscribe-content .subscribe-form{
+    background-color: #ffffff;
+    padding: 28px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 24px #0000001b;
+}
+.subscribe .subscribe-content .subscribe-form .input-fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+.subscribe .subscribe-content .subscribe-form .input-fields input{
+    width: 449px;
+    border: 1px solid #C4C4C4;
+    border-radius: 4px;
+    padding:15px 12px;
+     font-family: "Roboto", sans-serif ;
+    font-weight: 400 ;
+    font-size: 16px ;
+    line-height: 24px;
+}
+.subscribe .subscribe-content .button{
+    margin-top: 18px;
+}
+.subscribe .subscribe-content .button button{
+    background-color: #F99A0E;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif ;
+    font-weight: 500 ;
+    font-size: 16px ;
+    padding: 15px 52px;
+}
+
+/*Footer Section Css*/
+
+.footer{
+    background-image: url(../public/img/Footer.png);
+    background-position: center;
+    background-size: cover;
+    padding: 33px 0;
+}
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer .footer-content .logo{
+    max-width: 174px;
+}
+.footer .footer-content .social-media ul{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+.footer .footer-content .social-media ul li{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+.footer .footer-content .left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 48%;
+}
+.footer .footer-content .left-side .footer-text{
+    width: 95%;
+    line-height: 27px;
+}
+.footer .footer-content .center{
+    width: 1px;
+    background-color: #ffffff67;
+    display: flex;
+}
+.footer .footer-content .right-side{
+    width:48%;
+    
+}
+.footer .footer-content .right-side h4{
+    margin-bottom: 20px !important;
+}
+.footer .footer-content .right-side ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer .footer-content .right-side ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.footer .footer-content .right-side ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
