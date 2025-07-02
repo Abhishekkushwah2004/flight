@@ -2,7 +2,7 @@ import DurationIcon from '../../../public/img/icons/Duration.svg'
 
 export default function RecentSearchesDepart({ from, to, date}) {
     return (
-        <div className="col-6 recent-searches-depart">
+        <div className="col-lg-6 col-sm-12 recent-searches-depart">
             <div className="upper-text">
                 <h2 className='boldText' style={{ fontWeight: "700 !important" }}>{from}</h2>
                 <div className="icon">

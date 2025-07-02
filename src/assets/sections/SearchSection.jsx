@@ -33,8 +33,8 @@ export default function SearchSection() {
             </div>
             <div className="bottom">
               <div className="row">
-                <div className="col-10 input-fields">
-                  <div className="col-4">
+                <div className="col-lg-10 col-sm-12 col-md-12 input-fields">
+                  <div className="col-lg-4 col-sm-12 col-md-12">
                     <TextField
                       id="departure-input"
                       defaultValue="Singapore (SIN)"
@@ -45,7 +45,7 @@ export default function SearchSection() {
                       }}
                     />
                   </div>
-                  <div className="col-4">
+                  <div className="col-lg-4 col-sm-12 col-md-12">
                     <TextField
                       id="arrival-input"
                       defaultValue="Los Angeles (LA)"
@@ -56,7 +56,7 @@ export default function SearchSection() {
                       }}
                     />
                   </div>
-                  <div className="col-4">
+                  <div className="col-lg-4 col-sm-12 col-md-12">
                     <TextField
                       id="date-input"
                       label="Date"
@@ -68,7 +68,7 @@ export default function SearchSection() {
                     />
                   </div>
                 </div>
-                <div className="col-2">
+                <div className="col-lg-2 col-sm-12 col-md-12">
                   <div className="btn">
                     <button>Search flights</button>
                   </div>

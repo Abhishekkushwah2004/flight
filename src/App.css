@@ -28,6 +28,7 @@ h3 {
 .h338 {
     font-size: 38px !important;
 }
+
 .h332 {
     font-size: 32px !important;
 }
@@ -38,15 +39,18 @@ h4 {
     font-size: 20px !important;
     margin: 0 !important;
 }
+
 .h4Medium {
     font-weight: 500 !important;
 }
+
 .h422 {
     font-family: "Roboto", sans-serif !important;
     font-weight: 700 !important;
     font-size: 22px !important;
     margin: 0 !important;
 }
+
 .h4Medium {
     font-weight: 500 !important;
 }
@@ -57,6 +61,7 @@ h5 {
     font-size: 18px !important;
     margin: 0 !important;
 }
+
 .h5Regular {
     font-weight: 400 !important;
 }
@@ -71,26 +76,30 @@ h6 {
     font-size: 30px !important;
     margin: 0 !important;
 }
+
 p {
     font-family: "Roboto", sans-serif !important;
     font-weight: 400 !important;
     font-size: 16px !important;
     margin: 0 !important;
 }
-.pMedium{
+
+.pMedium {
     font-weight: 500 !important;
 }
-img{
+
+img {
     width: 100%;
 }
 
 /*Section Heading css*/
-.top .text{
+.top .text {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 24px;
 }
+
 .top .text a {
     text-decoration: none;
     color: #1262AE;
@@ -294,27 +303,33 @@ img{
     align-items: center;
     flex-direction: column;
 }
-.PrepareTrip .icon{
+
+.PrepareTrip .icon {
     width: 65px;
     height: 65px;
     border-radius: 16px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
 }
-.PrepareTrip .icon img{
-    
+
+.PrepareTrip .icon img {
+
     transition: transform 0.3s ease-in-out;
 }
-.PrepareTrip:hover .icon img{
+
+.PrepareTrip:hover .icon img {
     transform: scale(1.1);
 }
+
 .PrepareTrip:hover .icon {
-   box-shadow: 0 0 15px #0000001b;
+    box-shadow: 0 0 15px #0000001b;
 }
-.PrepareTrip h1{
+
+.PrepareTrip h1 {
     transition: transform 0.3s ease-in-out;
 }
-.PrepareTrip:hover h1{
+
+.PrepareTrip:hover h1 {
     color: #303030 !important;
     font-weight: 700 !important;
 }
@@ -371,48 +386,56 @@ img{
 .next-trip .img {
     width: 100%;
 }
+
 .next-trip .img:hover img {
     transform: scale(1.2);
-    
+
 }
 
 /*recommended-holidays section css*/
 
-.recommended-holidays{
+.recommended-holidays {
     padding: 80px 0;
 }
-.recommended-trip .trip-card .trip-image{
+
+.recommended-trip .trip-card .trip-image {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
 }
-.recommended-trip .trip-card{
+
+.recommended-trip .trip-card {
     border-radius: 10px;
     transition: transform 0.5s ease-in-out;
 }
-.recommended-trip .trip-card:hover{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   
+
+.recommended-trip .trip-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.recommended-trip .trip-card:hover img{
+
+.recommended-trip .trip-card:hover img {
     transform: scale(1.2);
 }
-.recommended-trip .trip-card .trip-image img{
+
+.recommended-trip .trip-card .trip-image img {
     width: 100%;
     object-fit: cover;
     object-position: center;
     transition: transform 0.5s ease-in-out;
 }
-.recommended-trip .trip-card .trip-details{
+
+.recommended-trip .trip-card .trip-details {
     display: flex;
     align-items: center;
     justify-content: space-between;
-     border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
     border: 1px solid #EAEAEA;
     padding: 20px 16px;
 }
-.recommended-trip .trip-card .trip-details .text{
+
+.recommended-trip .trip-card .trip-details .text {
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -422,196 +445,511 @@ img{
 
 /* Popular Stay Section css*/
 
-.stayCard{
+.stayCard {
     border: 1px solid #EAEAEA;
     border-radius: 10px;
     overflow: hidden;
     padding: 15px 12px;
     transition: box-shadow 0.3s ease-in-out;
 }
-.stayCard:hover{
+
+.stayCard:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
-}
-.stayCard:hover .stay-image img{
-    transform: scale(1.2);
-    
 
 }
-.stayCard .stay-image{
+
+.stayCard:hover .stay-image img {
+    transform: scale(1.2);
+
+
+}
+
+.stayCard .stay-image {
     border-radius: 10px;
     overflow: hidden;
 }
-.stayCard .stay-image img{
+
+.stayCard .stay-image img {
     transition: transform 0.5s ease-in-out;
 }
-.stayCard .stay-details{
+
+.stayCard .stay-details {
     padding: 23px 0;
     display: flex;
     justify-content: space-between;
 }
-.stayCard .stay-details .right-side .icon{
+
+.stayCard .stay-details .right-side .icon {
     width: 25px;
     height: 25px;
 }
-.stayCard .rating{
+
+.stayCard .rating {
     display: flex;
     align-items: center;
 }
+
 .stayCard .rating .icon {
     width: 16px;
     height: 16px;
     display: flex;
     margin-right: 4px;
 }
-.stayCard .rating .reviewsCount{
+
+.stayCard .rating .reviewsCount {
     margin-left: 10px !important;
 }
-.stayCard .button{
+
+.stayCard .button {
     padding-top: 23px;
     transition: transform 0.5s ease-in-out;
 }
-.stayCard .button button:hover{
+
+.stayCard .button button:hover {
     background-color: #1262AF;
     color: #ffffff;
 }
-.stayCard .button button{
+
+.stayCard .button button {
     background-color: #ffffff;
     color: #1262AF;
     border: 1px solid #CCDCEC;
     border-radius: 4px;
     padding: 10px;
     width: 100%;
-    font-family: "Roboto", sans-serif ;
-    font-weight: 500 ;
-    font-size: 16px ;
-   transition: background-color 0.3s ease, color 0.3s ease, transform 0.5s ease-in-out;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.5s ease-in-out;
 }
-.PopularStays{
+
+.PopularStays {
     padding: 0 0 80px 0;
 }
 
 /*Subscribe Section css*/
 
-.subscribe{
+.subscribe {
     background-image: url(../public//img/SubscribeSection.png);
     background-position: center;
     background-size: cover;
     padding-bottom: 50px;
     background-repeat: no-repeat;
 }
-.subscribe .subscribe-content{
+
+.subscribe .subscribe-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 70px 0;
 }
-.subscribe .subscribe-content .text{
+
+.subscribe .subscribe-content .text {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
 }
-.subscribe .subscribe-content .subscribe-form{
+
+.subscribe .subscribe-content .subscribe-form {
     background-color: #ffffff;
     padding: 28px 30px;
     border-radius: 12px;
     box-shadow: 0 0 24px #0000001b;
 }
-.subscribe .subscribe-content .subscribe-form .input-fields{
+
+.subscribe .subscribe-content .subscribe-form .input-fields {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     margin-top: 16px;
 }
-.subscribe .subscribe-content .subscribe-form .input-fields input{
+
+.subscribe .subscribe-content .subscribe-form .input-fields input {
     width: 449px;
     border: 1px solid #C4C4C4;
     border-radius: 4px;
-    padding:15px 12px;
-     font-family: "Roboto", sans-serif ;
-    font-weight: 400 ;
-    font-size: 16px ;
+    padding: 15px 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
 }
-.subscribe .subscribe-content .button{
+
+.subscribe .subscribe-content .button {
     margin-top: 18px;
 }
-.subscribe .subscribe-content .button button{
+
+.subscribe .subscribe-content .button button {
     background-color: #F99A0E;
     border: none;
     color: #ffffff;
     border-radius: 4px;
-    font-family: "Roboto", sans-serif ;
-    font-weight: 500 ;
-    font-size: 16px ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
     padding: 15px 52px;
 }
 
 /*Footer Section Css*/
 
-.footer{
+.footer {
     background-image: url(../public/img/Footer.png);
     background-position: center;
     background-size: cover;
     padding: 33px 0;
 }
+
 .footer .footer-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.footer .footer-content .logo{
+
+.footer .footer-content .logo {
     max-width: 174px;
 }
-.footer .footer-content .social-media ul{
+
+.footer .footer-content .social-media ul {
     display: flex;
     gap: 20px;
     padding: 0;
     margin: 0;
 }
-.footer .footer-content .social-media ul li{
+
+.footer .footer-content .social-media ul li {
     width: 30px;
     height: 30px;
     list-style: none;
     text-decoration: none;
 }
-.footer .footer-content .left-side{
+
+.footer .footer-content .left-side {
     display: flex;
     flex-direction: column;
     gap: 14px;
     width: 48%;
 }
-.footer .footer-content .left-side .footer-text{
+
+.footer .footer-content .left-side .footer-text {
     width: 95%;
     line-height: 27px;
 }
-.footer .footer-content .center{
+
+.footer .footer-content .center {
     width: 1px;
     background-color: #ffffff67;
     display: flex;
 }
-.footer .footer-content .right-side{
-    width:48%;
-    
+
+.footer .footer-content .right-side {
+    width: 48%;
+
 }
-.footer .footer-content .right-side h4{
+
+.footer .footer-content .right-side h4 {
     margin-bottom: 20px !important;
 }
-.footer .footer-content .right-side ul{
+
+.footer .footer-content .right-side ul {
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-.footer .footer-content .right-side ul li{
+
+.footer .footer-content .right-side ul li {
     list-style: none;
     text-decoration: none;
 }
-.footer .footer-content .right-side ul li a{
+
+.footer .footer-content .right-side ul li a {
     text-decoration: none;
     color: #ffffff;
+}
+
+
+/*Responsive css*/
+
+@media screen and (max-width: 766px) {
+    h3 {
+        font-family: "Baloo Bhai 2", sans-serif;
+        font-weight: 700 !important;
+        font-size: 34px !important;
+        margin: 0 !important;
+    }
+
+    h2 {
+        font-family: "Roboto", sans-serif !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        margin: 0 !important;
+    }
+
+    h6 {
+        font-family: "Roboto", sans-serif !important;
+        font-weight: 700 !important;
+        font-size: 24px !important;
+        margin: 0 !important;
+    }
+
+    .header {
+        position: relative;
+        
+    }
+
+    .header .menu-slide-bar {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 95%;
+        background-color: #ffffff;
+        height: 100vh;
+        z-index: 4;
+        box-shadow: 0 0 15px #303030;
+        padding:20px;
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(100%);
+        
+    }
+
+    .header .menus {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .header .menus .menu {
+        margin: 0;
+        width: 100%;
+    }
+
+    .header .menus .menu ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header .menus .menu ul li {
+        border: 1px solid #EAEAEA;
+        border-radius: 8px;
+        padding: 18px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 0 8px #EAEAEA;
+    }
+
+    .header .menus .profile-content {
+        width: 100%;
+        display: flex;
+        padding: 0 18px;
+        justify-content: space-between;
+    }
+
+    .header .menus .menu ul li a h1 {
+        font-size: 16px !important;
+    }
+
+    .header .menus .profile-content .close{
+        font-size: 30px;
+    }
+    .header .right-side {
+        display: none;
+    }
+
+    .header .logo {
+        width: 130px;
+    }
+
+    .header .slid-bar {
+        cursor: pointer;
+    }
+
+    .header .slid-bar .icon i {
+        font-size: 30px;
+    }
+
+    .header .left-side {
+        justify-content: space-between;
+    }
+
+    .search-section {
+        height: 100%;
+        padding: 50px 0;
+    }
+
+    .search-section .search-container .text {
+        text-align: center;
+    }
+
+    .search-section .search-container .text h3 {
+        text-align: center;
+    }
+
+    .search-section .search-container .search-box .top {
+        flex-direction: column;
+    }
+
+    .search-section .search-container .search-box .bottom .input-fields {
+        flex-direction: column;
+        padding: 22px 0;
+    }
+
+    .recent-searches {
+        padding: 30px 0;
+    }
+
+    .recent-searches .heading {
+        text-align: center;
+    }
+
+    .recent-searches .Prepare-your-trip {
+        text-align: center;
+    }
+
+    .recommended-holidays {
+        padding: 30px 0;
+    }
+
+    .recent-searches .searches {
+        flex-direction: column;
+    }
+
+    .recent-searches .trip-collection {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .recent-searches .trip-collection .PrepareTrip {
+        flex: 0 0 30%;
+    }
+
+    .popular-destinations .top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popular-destinations .top .left-side {
+        align-items: center;
+    }
+
+    .popular-destinations .top .right-side {
+        margin-top: 20px;
+    }
+
+    .popular-destinations .next-trip .text {
+        padding: 18px;
+    }
+
+    .recommended-holidays .top .text {
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .subscribe .subscribe-content .subscribe-form .input-fields input {
+        width: 100%;
+    }
+
+    .subscribe .subscribe-content .button button {
+        width: 100%;
+    }
+
+    .footer .footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer .footer-content .left-side {
+        width: 100%;
+    }
+
+    .footer .footer-content .left-side .footer-text {
+        width: 85%;
+    }
+
+    .footer .footer-content .right-side ul {
+        gap: 2px;
+    }
+
+    .footer .footer-content .right-side h4 {
+        margin-bottom: 10px !important;
+    }
+
+    .footer .footer-content .right-side {
+        width: 100%;
+    }
+
+    .PopularStays .top .text {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .popular-destinations .bottom .row {
+        gap: 10px;
+    }
+
+    .recommended-holidays .bottom .row {
+        gap: 10px;
+    }
+
+    .PopularStays .row {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .search-section .search-container .search-box .bottom .input-fields {
+        flex-direction: column !important;
+        padding: 20px 0;
+    }
+
+    .search-section .search-container .text {
+        text-align: center;
+    }
+
+    .recent-searches .searches {
+        flex-direction: column;
+    }
+
+    .popular-destinations .bottom .row {
+        gap: 20px 0;
+    }
+
+    .recommended-holidays {
+        padding: 60px 0;
+    }
+
+    .recommended-holidays .bottom .row {
+        gap: 20px 0;
+    }
+
+    .PopularStays .row {
+        gap: 20px 0;
+    }
+
+    .PopularStays {
+        padding: 0 0 40px 0;
+    }
+
+    .subscribe {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .PopularStays .stayCard .stay-details .left-side p {
+        font-size: 12px !important;
+    }
+
+    .PopularStays .stayCard .stay-details .left-side .h422 {
+        font-size: 18px !important;
+    }
+
+    .PopularStays .stayCard .stay-details .left-side h5 {
+        font-size: 16px !important;
+    }
 }

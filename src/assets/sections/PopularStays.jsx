@@ -11,16 +11,16 @@ export default function PopularStays() {
             <div className="container">
                 <SectionHeading mainHeading={"Popular Stays"} viewLink={'View all stays'}/>
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <StayCard img={MatterhornSuitesImg} name={"Matterhorn Suites"} subTitle={"Entire bungalow"} price={'$575'} rating={"4.9"} reviews={'60'}/>
                     </div>
-                   <div className="col-3">
+                   <div className="col-lg-3 col-md-6 col-sm-12">
                         <StayCard img={DiscoveryShoresImg} name={"Discovery Shores"} subTitle={"2-Story beachfront suite"} price={'$360'} rating={"4.8"} reviews={'116'}/>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <StayCard img={ArcticHutImg} name={"Arctic Hut"} subTitle={"Single deluxe hut"} price={'$420'} rating={"4.7"} reviews={'78'}/>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <StayCard img={LakeLouiseInnImg} name={"Lake Louise Inn"} subTitle={"Deluxe King Room"} price={'$244'} rating={"4.6"} reviews={'63'}/>
                     </div>
                 </div>

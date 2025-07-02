@@ -21,10 +21,10 @@ export default function PopularDestinations() {
                 </div>
                 <div className="bottom">
                     <div className="row">
-                       <div className="col-3"><NextTrip placeName={"Paris"} placeImg={ParisImg} price={"$699"}/></div>
-                       <div className="col-3"><NextTrip placeName={"Greece"} placeImg={GreeceImg} price={"$1079"}/></div>
-                       <div className="col-3"><NextTrip placeName={"Norway"} placeImg={NorwayImg} price={"$895"}/></div>
-                       <div className="col-3"><NextTrip placeName={"Tuscany"} placeImg={TuscanyImg} price={"$1245"}/></div>
+                       <div className="col-lg-3 col-md-6 col-sm-12"><NextTrip placeName={"Paris"} placeImg={ParisImg} price={"$699"}/></div>
+                       <div className="col-lg-3 col-md-6 col-sm-12"><NextTrip placeName={"Greece"} placeImg={GreeceImg} price={"$1079"}/></div>
+                       <div className="col-lg-3 col-md-6 col-sm-12"><NextTrip placeName={"Norway"} placeImg={NorwayImg} price={"$895"}/></div>
+                       <div className="col-lg-3 col-md-6 col-sm-12"><NextTrip placeName={"Tuscany"} placeImg={TuscanyImg} price={"$1245"}/></div>
                     </div>
                 </div>
             </div>

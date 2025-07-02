@@ -26,7 +26,7 @@ export default function Footer(){
                         </div>
                         <div className="right-side">
                             <div className="row">
-                                <div className="col-4">
+                                <div className="col-lg-4 col-md-6 col-sm-4">
                                     <h4 style={{color:'#ffffff'}} className='h4Medium'>Company</h4>
                                     <ul>
                                         <li><a href="#"><p>About Us</p></a></li>
@@ -35,7 +35,7 @@ export default function Footer(){
                                         <li><a href="#"><p>How we work</p></a></li>
                                     </ul>
                                 </div>
-                                 <div className="col-4">
+                                 <div className="col-lg-4 col-md-6 col-sm-4">
                                     <h4 style={{color:'#ffffff'}} className='h4Medium'>Support</h4>
                                     <ul>
                                         <li><a href="#"><p>Account</p></a></li>
@@ -44,7 +44,7 @@ export default function Footer(){
                                         <li><a href="#"><p>Accessibility</p></a></li>
                                     </ul>
                                 </div>
-                                 <div className="col-4">
+                                 <div className="col-lg-4 col-md-6 col-sm-4">
                                     <h4 style={{color:'#ffffff'}} className='h4Medium'>More</h4>
                                     <ul>
                                         <li><a href="#"><p>Covid Advisory</p></a></li>
